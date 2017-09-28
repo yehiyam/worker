@@ -16,7 +16,6 @@ cache:
   - node_modules/
 
 test_async:
-  script:
-   - npm install
+  script: install
    - npm run test
 
